@@ -1,0 +1,263 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good evening",
+          "Greetings",
+          "What's up?",
+          "How are you?"
+        ],
+        "responses": [
+          "Hello! I'm your Darshan UMS Assistant. How can I assist you today?",
+          "Hi there! How can I help you with your Darshan UMS portal?",
+          "Greetings! What can I do for you regarding Darshan UMS?"
+        ]
+      },
+      {
+        "tag": "profile_info",
+        "patterns": [
+          "Show my profile",
+          "Who am I?",
+          "Student details",
+          "My information",
+          "Tell me about myself",
+          "My student profile",
+          "Profile details"
+        ],
+        "responses": [
+          "You are Mashru Bhavya Ishwarlal, enrolled in BTech - Computer Science and Engineering, Semester 7, ID: 23010101631. For more details, please check the 'My Profile' section on your dashboard."
+        ]
+      },
+      {
+        "tag": "mobile_app_activation",
+        "patterns": [
+          "How do I activate the mobile app?",
+          "Activate my app",
+          "Mobile application activation",
+          "How to use mobile app?",
+          "Mobile app instructions"
+        ],
+        "responses": [
+          "To activate your mobile app, click the 'Activate' button on your Darshan UMS dashboard. You can also download the Darshan University app from the Play Store and log in using your credentials."
+        ]
+      },
+      {
+        "tag": "notifications",
+        "patterns": [
+          "Do I have any notifications?",
+          "Any updates?",
+          "What's new on UMS?",
+          "Notifications for me",
+          "Latest announcements"
+        ],
+        "responses": [
+          "Currently, there are no new notifications. Please keep an eye on the Notification, Circular, LMS, and Student Announcement sections for updates."
+        ]
+      },
+      {
+        "tag": "job_portal",
+        "patterns": [
+          "Are there any job openings?",
+          "Upcoming job opportunities",
+          "Status of applied jobs",
+          "Placement updates",
+          "Job portal details"
+        ],
+        "responses": [
+          "Right now, there are no upcoming jobs or applied job statuses displayed on your dashboard. Please visit the 'Job List' section regularly to stay updated on placement opportunities."
+        ]
+      },
+      {
+        "tag": "timetable",
+        "patterns": [
+          "Show my timetable",
+          "Where is the timetable?",
+          "Today's schedule",
+          "Class timings",
+          "My class schedule"
+        ],
+        "responses": [
+          "You can view your timetable in the 'Timetable / Attendance' section. It shows your daily classes and classroom locations."
+        ]
+      },
+      {
+        "tag": "attendance",
+        "patterns": [
+          "What is my attendance?",
+          "How much attendance do I have?",
+          "Am I eligible?",
+          "Show attendance percentage",
+          "Attendance details"
+        ],
+        "responses": [
+          "You can check your attendance percentage in the 'Timetable / Attendance' section. Ensure your attendance meets the minimum eligibility criteria."
+        ]
+      },
+      {
+        "tag": "lms_content",
+        "patterns": [
+          "Where is the LMS?",
+          "Study materials",
+          "Subject notes",
+          "Online resources",
+          "Access course content"
+        ],
+        "responses": [
+          "You can access your subject notes, assignments, and lectures in the 'LMS' tab on your dashboard. Each course module is organized for your convenience."
+        ]
+      },
+      {
+        "tag": "exam_info",
+        "patterns": [
+          "Exam form",
+          "How do I apply for exams?",
+          "Exam schedule",
+          "When is the exam?",
+          "Exam details",
+          "Hall ticket download"
+        ],
+        "responses": [
+          "Exam information including application forms, schedules, and hall tickets can be found under the 'Exam' tab on your dashboard."
+        ]
+      },
+      {
+        "tag": "transport_service",
+        "patterns": [
+          "How to register for transport?",
+          "Bus service details",
+          "Transport fee",
+          "College bus registration",
+          "Transport facility"
+        ],
+        "responses": [
+          "To register for transportation, go to the 'Transport' section on your dashboard. Select your pickup point and shift, then complete payment online."
+        ]
+      },
+      {
+        "tag": "fee_payment",
+        "patterns": [
+          "How do I pay my fees?",
+          "Outstanding fees",
+          "Tuition fee payment",
+          "Fee due",
+          "Payment options"
+        ],
+        "responses": [
+          "To pay your tuition or transport fees, visit the 'Fee' section on your dashboard. Click 'Pay Now' for any pending fees and select your preferred payment method such as Net Banking or UPI."
+        ]
+      },
+      {
+        "tag": "mentoring",
+        "patterns": [
+          "Who is my mentor?",
+          "Mentor information",
+          "Mentoring sessions",
+          "Mentoring details"
+        ],
+        "responses": [
+          "You can find your mentor's name, contact details, and mentoring session records in the 'Mentoring' tab on your dashboard."
+        ]
+      },
+      {
+        "tag": "feedback",
+        "patterns": [
+          "How to give feedback?",
+          "Faculty feedback",
+          "Course feedback",
+          "Submit feedback"
+        ],
+        "responses": [
+          "To submit feedback, go to the 'Feedback' section, select the feedback type (Faculty or Course), fill out the form, and submit it either anonymously or with your student ID."
+        ]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": [
+          "Contact support",
+          "Help me",
+          "Support email",
+          "I have an issue",
+          "University support"
+        ],
+        "responses": [
+          "For any issues, please contact the university support team at info@darshan.ac.in or visit the administration desk on campus."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "Thanks",
+          "See you later",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Feel free to ask if you have more questions about Darshan UMS anytime.",
+          "Thanks for chatting! Have a great day."
+        ]
+      },
+      {
+        "tag": "password_reset",
+        "patterns": [
+          "I forgot my password",
+          "How to reset password?",
+          "Change password",
+          "Password help"
+        ],
+        "responses": [
+          "To reset your password, please visit the 'Forgot Password' link on the Darshan UMS login page and follow the instructions."
+        ]
+      },
+      {
+        "tag": "library_services",
+        "patterns": [
+          "Library hours",
+          "Access library resources",
+          "Library books",
+          "Borrow books",
+          "Library services"
+        ],
+        "responses": [
+          "The library is open from 8 AM to 8 PM on weekdays. You can search for and borrow books through the library section on your dashboard."
+        ]
+      },
+      {
+        "tag": "exam_results",
+        "patterns": [
+          "When will results be announced?",
+          "Check exam results",
+          "Result status",
+          "My grades"
+        ],
+        "responses": [
+          "Exam results are typically published two weeks after the exam date. You can check your results in the 'Results' section of your dashboard."
+        ]
+      },
+      {
+        "tag": "events",
+        "patterns": [
+          "Upcoming events",
+          "College events",
+          "What events are happening?",
+          "Event details"
+        ],
+        "responses": [
+          "You can find upcoming college events and activities in the 'Events' section on your dashboard."
+        ]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": [
+          "I'm sorry, I didn't understand that. Could you please rephrase your question or try asking about Timetable, Fees, Exams, or other sections?"
+        ]
+      }
+    ]
+  }
+  
