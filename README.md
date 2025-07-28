@@ -49,7 +49,7 @@ A smart, lightweight chatbot built with Streamlit, Scikit-learn, and NLTK to hel
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/Darshan-UMS-Chatbot.git
+git clone https://github.com/your-username/Custom_Chatbot.git
 cd Darshan-UMS-Chatbot
 
 # 2. (Optional) Create a virtual environment
