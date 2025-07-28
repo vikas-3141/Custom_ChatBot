@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 
 # Ignore virtual environment folder
-chatbot/
+venv/
 
 # Ignore environment and secrets
 .env
