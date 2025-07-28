@@ -60,7 +60,10 @@ chatbot\Scripts\activate       # For Windows
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Streamlit app
+# 4.Install The ollma and Type This Command
+ollama pull llama3  
+
+# 5. Run the Streamlit app
 streamlit run app.py
 💬 Example Questions to Ask
 
@@ -95,9 +98,9 @@ Voice-based interaction
 Mobile responsiveness
 🧑‍💻 Developed By
 
-Bhavya Mashru
-Email: mashrubhavya5@gmail.com
-GitHub: Bhavya773-coder
+Vikas Sanchaniya & Bhavya Masharu
+Email: sanchaniyavikas.com
+GitHub: vikas-3141
 
 🏫 About
 
